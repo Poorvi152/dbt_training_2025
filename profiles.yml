@@ -1,13 +1,1 @@
-dbt_training:
-  outputs:
-    dev:
-      account: GEXLBDZ-KL26317
-      database: DEV
-      password: dbtPassword123
-      role: Transform
-      schema: BRONZE_AIRBNB
-      threads: 4
-      type: snowflake
-      user: dbt
-      warehouse: COMPUTE_WH
-  target: dev
+
